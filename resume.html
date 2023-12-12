@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2번팁</title>
+    <link rel="stylesheet" href="../css/mystyle.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+    <style>
+    article {
+    float: left;
+    padding: 20px;
+    box-sizing:border-box; 
+           /* 박스모델에서 박스의 크기는 기본적으로 콘텐츠의 크기만 계산(box-sizing:content-box;)
+           아래에서 넓이를 70%로 지정했는데 패딩의 크기가 20px이 있어 실제 크기는 70%를 초과하게 됨
+           box-sizing을 border-box 로 지정하면 **박스 크기 = 콘텐츠 크기+padding크기+border크기의 합**
+           패딩의 크기를 포함한 article 영역의 전체 넓이를 70%로 맞추기 위해 border-box로 지정함 */
+    width: 70%;
+    background-color: seashell;
+    height: 1000px; /* only for demonstration, should be removed */
+    }
+    aside {
+    float: left;
+    padding: 20px; 
+    width: 30%;
+    box-sizing: border-box; 
+    background-color: snow;
+    height: 600px; /* only for demonstration, should be removed */
+    }
+    </style>
+</head>
+<body>
+  <div id="toplogo" class="font-effect-neon"> Hong Gil-Dong Homepage </div>
+    
+  <ul>
+    <li><a class="active" href="../index.html">Home</a></li>
+    <li class="dropdown">
+      <a href="#" class="dropbtn">팁1 메뉴</a> 
+       <div class="dropdown-content" >
+         <a href="../html/resume.html">테스트 팁1</a>
+         <a href="http://www.google.com">더미1</a>
+         <a href="http://www.youtube.com">더미2</a>
+         <a href="http://www.naver.com">더미3</a>
+       </div>
+     </li>
+    </li>
+    <li class="dropdown">
+     <a href="#" class="dropbtn">팁2 메뉴</a> 
+      <div class="dropdown-content" >
+        <a href="../html/resume.html">테스트 팁1</a>
+        <a href="http://www.google.com">더미1</a>
+        <a href="http://www.youtube.com">더미2</a>
+        <a href="http://www.naver.com">더미3</a>
+      </div>
+    </li>
+    <li><a href="../html/portfolio.html">팁3</a></li>
+    <li class="dropdown">
+      <a href="#" class="dropbtn">즐겨찾기</a>
+      <div class="dropdown-content" >
+        <a href="http://www.google.com">구글</a>
+        <a href="http://www.youtube.com">유튜브</a>
+        <a href="http://www.naver.com">네이버</a>
+        <a href="../html/test_tip1.html">테스트 팁1</a>
+      </div>
+    </li>
+  </ul>
+
+  <h2>이동은의 이력서</h2>
+
+  <article>
+    <h1>읽었던 책들</h1>
+    <p><a href="http://www.chungwoon.ac.kr">감명깊은 책 1(성채)</a></p>
+    <p>사람들의 내 내 봅니다. 까닭이요, 벌레는 나는 듯합니다. 아무 우는 사람들의 잠, 다 별이 이름을 까닭입니다. 소녀들의 새겨지는 않은 하늘에는 버리었습니다. 이름과, 하나의 벌써 토끼, 새겨지는 별이 그리고 것은 없이 있습니다. </p>
+    <p>국민의 자유와 권리는 헌법에 열거되지 아니한 이유로 경시되지 아니한다. </p>
+
+    <h1>전공관련 관심분야</h1>
+    <p>국회나 그 위원회의 요구가 있을 때에는 국무총리·국무위원 또는 정부위원은 출석·답변하여야 하며, 국무총리 또는 국무위원이 출석요구를 받은 때에는 국무위원 또는 정부위원으로 하여금 출석·답변하게 할 수 있다.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </article> 
+  <aside> 
+    <img src="../image/top.jpg" alt="관련 사이트" style="max-width: 100%;"/>
+    <a href="http://www.chungwoon.ac.kr">
+      <img src="../image/cwu.png" alt="청운대" style="max-width: 100%;"/>
+    </a>
+  </aside>
+  <div>
+    <p>안녕하세요.</p>
+    <p>반갑습니다.</p>
+  </div>
+</body>
+</html>
